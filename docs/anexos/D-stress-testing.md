@@ -13,6 +13,7 @@ En un sistema fuertemente acoplado, validar la recuperación de un componente no
 El testeo sistémico prohíbe la simulación de colapsos totales. Apagar un sistema principal detiene la operación, pero no revela la dinámica de la red. El estrés se diseña inyectando ruido termodinámico directamente en los espacios intersticiales (interfaces).
 
 Se utilizan tres vectores de inyección paramétrica:
+
 1.  **Saturación de Latencia:** Se induce un retraso algorítmico o procedimental artificial en el Nodo emisor. El objetivo es observar si el Nodo receptor agota su holgura temporal y comienza a fallar en cadena, o si logra desacoplarse.
 2.  **Corrupción del Contrato de Acoplamiento:** Se inyectan intencionalmente transacciones que violan sutilmente el formato acordado. El objetivo es auditar si los sensores transversales rechazan el flujo automáticamente o si la anomalía penetra el nodo adyacente y se incuba.
 3.  **Estrés de Excepción (Saturación Manual):** Se multiplica artificialmente el volumen de transacciones que requieren bypass táctico. El objetivo es medir en qué minuto exacto el ancho de banda cognitivo del operador periférico colapsa y permite que el daño transversal se propague sin filtro.
@@ -32,6 +33,7 @@ El *stress testing* no se anuncia a la jerarquía operativa. Se ejecuta bajo el 
 ### FASE III: Telemetría de Propagación y Recuperación
 
 Durante la inyección de estrés, la Capa de Observabilidad debe registrar inmutablemente cuatro métricas geométricas:
+
 1.  **Radio de Contagio:** ¿Cuántos nodos o departamentos cruzó la anomalía antes de ser contenida por un límite paramétrico?
 2.  **Tiempo de Perforación:** El delta temporal exacto entre el inicio de la inyección de fricción y la ruptura de la envolvente de viabilidad.
 3.  **Asimetría de Intervención:** Relación matemática entre el volumen de daño inyectado y el número de horas-hombre que el sistema requirió para absorberlo.

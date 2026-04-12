@@ -45,6 +45,7 @@ El objetivo de la Física Organizacional no es evitar el fallo, sino garantizar 
 > *Todo lo que no cumpla con esta definición geométrica es, por diseño, material de sacrificio.*
 
 Con esta definición sellada, parametrizamos el fallo en dos estados binarios:
+
 1.  **Fallo Absorbible (Contención de Nodo):** Una perturbación que satura la capacidad operativa de un nodo de sacrificio, pero cuyos *circuit breakers* cortan la conexión ($T_c \le T_p$). El nodo muere (degradación elegante), pero la red sobrevive.
 2.  **Contagio Terminal (Ruptura de Interfaz):** Una perturbación que atraviesa la interfaz y transfiere su fricción directamente a un Nodo Crítico. 
 

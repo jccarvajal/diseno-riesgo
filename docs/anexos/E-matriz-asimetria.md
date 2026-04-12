@@ -26,16 +26,19 @@ La matriz no evalúa la calidad de la decisión humana. Mide la distancia topol�
 
 #### VECTOR 1: Distancia Cognitiva (Conocimiento vs. Autoridad)
 Mide la latencia y la pérdida de contexto necesarias para que el conocimiento alcance a la autoridad.
+
 * **Cálculo Forense:** ¿Cuántos "saltos" (escalones jerárquicos o sistemas de reporte) debe dar la alerta de fricción para convertirse en un mandato de ejecución?
 * **Regla de Inviabilidad:** Si el tiempo de transmisión y validación entre el Polo de Conocimiento y el Polo de Autoridad es superior a la velocidad termodinámica del contagio sistémico, el control es nulo.
 
 #### VECTOR 2: Externalización del Daño (Autoridad vs. Consecuencia)
 Mide el grado de socialización del impacto. 
+
 * **Cálculo Forense:** Cuando el Polo de Autoridad toma una decisión de optimización, ¿es ese mismo polo quien absorbe las horas-hombre, el estrés operativo y las multas si la decisión falla?
 * **Regla de Inviabilidad:** Si el Polo de Autoridad retiene los incentivos por el éxito (KPIs en verde), pero transfiere la carga de fallo al Polo de Consecuencia, el sistema está diseñado para el colapso.
 
 #### VECTOR 3: Opacidad de Retorno (Consecuencia vs. Conocimiento)
 Mide la capacidad de aprendizaje del sistema en tiempo real.
+
 * **Cálculo Forense:** Cuando el Polo de Consecuencia sufre el impacto, ¿esa fricción se refleja instantánea y matemáticamente en el tablero de control del Polo de Autoridad?
 * **Regla de Inviabilidad:** Si el daño se amortigua mediante parches manuales en la periferia y no afecta la métrica de red del decisor central, la arquitectura es sorda a su propio riesgo.
 

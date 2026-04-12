@@ -14,21 +14,25 @@ El índice se calcula evaluando forensemente cuatro variables en cada interfaz c
 
 #### 1. Margen de Absorción Temporal (Holgura)
 Mide la relación exacta entre la velocidad de propagación de un error y la velocidad de reacción del sistema de control.
+
 * **Acoplamiento Débil:** El proceso puede detenerse durante horas sin afectar al nodo receptor. El error espera a ser corregido.
 * **Acoplamiento Rígido:** La ejecución de la decisión y la materialización de la consecuencia ocurren en la misma ventana de tiempo (milisegundos). No hay margen para la deliberación. *Si el tiempo de propagación es menor que el tiempo de validación, el acoplamiento es absoluto.*
 
 #### 2. Rigidez de Secuencia (Inflexibilidad de Ruta)
 Mide la dependencia matemática del flujo. ¿Puede el sistema sobrevivir si la interfaz se desconecta?
+
 * **Acoplamiento Débil:** Existen rutas de procesamiento alternativas o modos de contingencia (*fallbacks*) automatizados que asumen la carga con una degradación aceptable de velocidad.
 * **Acoplamiento Rígido:** La interfaz es un "Punto Único de Fallo" (*Single Point of Failure*). Si la conexión se rompe, el proceso se paraliza por completo. La contingencia manual existe en los manuales, pero operativamente es incapaz de procesar el volumen de la red.
 
 #### 3. Inseparabilidad de Estado (Sincronía)
 Mide el nivel de sincronización requerido entre los nodos para operar.
+
 * **Acoplamiento Débil:** Interacciones asincrónicas. El Nodo A empuja datos a un repositorio, y el Nodo B los procesa cuando tiene capacidad. 
 * **Acoplamiento Rígido:** Operaciones sincrónicas de tiempo real. El Nodo A no puede finalizar su transacción hasta que el Nodo B emita una confirmación algorítmica. *La sincronía forzada es la carretera principal del contagio sistémico.*
 
 #### 4. Opacidad Acumulada
 Mide la capacidad de la organización para observar la lógica de transferencia en el momento en que ocurre.
+
 * **Acoplamiento Débil:** Las reglas de transferencia son legibles, lineales y pueden ser reconstruidas mediante un Análisis de Causa Raíz (RCA) tradicional.
 * **Acoplamiento Rígido:** La transferencia es decidida por cajas negras algorítmicas, modelos de IA o automatizaciones complejas cuya lógica de inferencia es inaccesible en tiempo real. *La opacidad impide el desacople.*
 

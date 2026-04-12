@@ -49,15 +49,15 @@ Mide la capacidad de aprendizaje del sistema en tiempo real.
 El cruce de estos tres vectores arroja la tipología del desajuste para la interfaz evaluada:
 
 * **ESTADO 1: Simetría Operativa (Viabilidad Paramétrica)**
-  * *Condición:* Conocimiento, Autoridad y Consecuencia convergen en el mismo punto espacio-temporal. 
-  * *Arquitectura:* Operación gobernada por Envolventes de Viabilidad (Anexo F).
+    * *Condición:* Conocimiento, Autoridad y Consecuencia convergen en el mismo punto espacio-temporal. 
+    * *Arquitectura:* Operación gobernada por Envolventes de Viabilidad (Anexo F).
 
 * **ESTADO 2: Parálisis por Latencia (El Modelo Heredado)**
-  * *Condición:* Alta Distancia Cognitiva. Conocimiento y Consecuencia están en la base; la Autoridad está aislada en la cúpula. El operador ve la cascada pero no tiene autoridad para cortarla.
+    * *Condición:* Alta Distancia Cognitiva. Conocimiento y Consecuencia están en la base; la Autoridad está aislada en la cúpula. El operador ve la cascada pero no tiene autoridad para cortarla.
 
 * **ESTADO 3: Riesgo Moral Estructural (Optimización Local Ciega)**
-  * *Condición:* Alta Externalización del Daño. El Polo de Autoridad optimiza su propio nodo eficientemente, pero transfiere termodinámicamente todo el impacto al Polo de Consecuencia.
-  * *Condición de Intervención Obligatoria:* **Toda interfaz clasificada en Estado 3 debe ser intervenida prioritariamente en el MVP Sistémico.**
+    * *Condición:* Alta Externalización del Daño. El Polo de Autoridad optimiza su propio nodo eficientemente, pero transfiere termodinámicamente todo el impacto al Polo de Consecuencia.
+    * *Condición de Intervención Obligatoria:* **Toda interfaz clasificada en Estado 3 debe ser intervenida prioritariamente en el MVP Sistémico.**
 
 ---
 

@@ -43,19 +43,16 @@ Mide la capacidad de la organización para observar la lógica de transferencia 
 **Regla de Cálculo Operativo:** *El Índice de Acoplamiento Sistémico se calcula como una función compuesta de sus cuatro dimensiones. La clasificación final de la interfaz corresponde ineludiblemente al nivel más restrictivo observado en cualquiera de sus variables.*
 
 * **GRADO 1: Acoplamiento Flojo (*Loose Coupling*)**
-
-  * *Condición:* Alta holgura, asincronía y rutas alternativas.
-  * *Gobernanza:* El modelo heredado (auditoría *ex post* y jerarquía) sigue siendo marginalmente útil. El error es aislable y se contiene localmente.
+    * *Condición:* Alta holgura, asincronía y rutas alternativas.
+    * *Gobernanza:* El modelo heredado (auditoría *ex post* y jerarquía) sigue siendo marginalmente útil. El error es aislable y se contiene localmente.
 
 * **GRADO 2: Acoplamiento Tenso (*Tense Coupling*)**
-
-  * *Condición:* Holgura reducida, alta sincronía, optimización orientada a la eficiencia máxima.
-  * *Gobernanza:* Zona de peligro. La organización cree tener control porque el sistema opera rápido, pero la capacidad de absorción ha sido eliminada por la optimización. Cualquier perturbación inusual perforará la capacidad humana de respuesta. Requiere instrumentación forense obligatoria.
+    * *Condición:* Holgura reducida, alta sincronía, optimización orientada a la eficiencia máxima.
+    * *Gobernanza:* Zona de peligro. La organización cree tener control porque el sistema opera rápido, pero la capacidad de absorción ha sido eliminada por la optimización. Cualquier perturbación inusual perforará la capacidad humana de respuesta. Requiere instrumentación forense obligatoria.
 
 * **GRADO 3: Acoplamiento Rígido (*Tight Coupling*)**
-
-  * *Condición:* Holgura cero. Sincronía absoluta. Inflexibilidad de ruta total y alta velocidad de máquina.
-  * *Gobernanza:* **Intervención Humana Prohibida.** Intentar gobernar una interfaz de Grado 3 mediante comités o validaciones jerárquicas garantiza la destrucción del sistema. 
+    * *Condición:* Holgura cero. Sincronía absoluta. Inflexibilidad de ruta total y alta velocidad de máquina.
+    * *Gobernanza:* **Intervención Humana Prohibida.** Intentar gobernar una interfaz de Grado 3 mediante comités o validaciones jerárquicas garantiza la destrucción del sistema. 
 
 ---
 

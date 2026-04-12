@@ -153,7 +153,7 @@ Reglas de compromiso y definición del campo de batalla.
 
 ## Anexos Operativos
 
-Estos anexos no son recomendaciones teóricas; son el instrumental forense de la doctrina Alcaraván, herramientas de auditoría paramétrica y despliegue topológico.
+Estos anexos no son recomendaciones teóricas; son el instrumental forense, herramientas de auditoría paramétrica y despliegue topológico.
 
 * [Anexo A: Modelo de Diagnóstico de Complejidad Organizacional](./anexos/A-diagnostico-complejidad.md)
   *El sensor de entrada comercial que expone el déficit de variedad estructural y la ilusión del control documental.*

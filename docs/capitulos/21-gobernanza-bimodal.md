@@ -8,6 +8,8 @@ Ninguna organización compleja puede ser apagada para reescribir su topología d
 
 La adaptación exige la instalación de un nuevo sistema operativo con el motor en marcha. Esto requiere una gobernanza bimodal: la estructura jerárquica heredada sobrevive temporalmente como andamiaje para sostener la operación diaria, mientras una nueva red de sensores y envolventes paramétricas se instala exclusivamente en las fallas geológicas del sistema, asumiendo progresivamente la carga crítica.
 
+---
+
 ### 21.1. La unidad mínima de intervención: Delimitación de la interfaz
 
 Para intervenir la red, primero hay que definir sus fronteras físicas. El modelo heredado interviene departamentos; el modelo sistémico interviene conexiones.
@@ -15,6 +17,8 @@ Para intervenir la red, primero hay que definir sus fronteras físicas. El model
 La definición operativa es estricta: una interfaz es la unidad mínima de transferencia topológica donde ocurre al menos una de tres condiciones: cambia la responsabilidad sobre el proceso, cambia el formato estructural de la información, o cambia la velocidad de procesamiento (frecuencia).
 
 Cualquier punto en la organización donde el *output* de un algoritmo se convierte en el *input* de un humano, o donde el flujo de una base de datos en tiempo real choca con un proceso de conciliación por lotes (*batch*), es una interfaz crítica. No se gobierna el área de Finanzas ni el área de Operaciones; se gobierna el punto exacto de colisión entre ambas. **Si no puedes delimitar geométricamente la interfaz, no puedes gobernarla.**
+
+---
 
 ### 21.2. El evento sistémico y la capa de observabilidad
 
@@ -26,6 +30,8 @@ Para gobernar este flujo, se instituye el contrato de acoplamiento. Un contrato 
 
 Para auditar estos eventos y contratos, instalar sensores aislados es inútil. Requiere la construcción de una Capa de Observabilidad Sistémica: una infraestructura de datos que ingesta los eventos de todas las interfaces, normaliza las métricas y las correlaciona en un repositorio auditable único y en tiempo real. La latencia del Nodo A debe cruzarse automáticamente con la tasa de error del Nodo B. La observabilidad no es visibilidad. Es capacidad de reconstrucción. Si un evento no puede ser correlacionado en la red, no puede ser gobernado. **Sin una capa común de observabilidad, no existe sistema. Solo monitoreo fragmentado.**
 
+---
+
 ### 21.3. El MVP Sistémico: Despliegue quirúrgico
 
 El despliegue de esta arquitectura comienza con un Modelo Operativo Mínimo Viable (MVP). La regla de transición dicta que no se interviene el organigrama completo. La selección de interfaces no es discrecional. Se priorizan aquellas donde coinciden simultáneamente: alta frecuencia transaccional, alta opacidad de decisión (algorítmica o manual) y alta asimetría de consecuencia.
@@ -33,6 +39,8 @@ El despliegue de esta arquitectura comienza con un Modelo Operativo Mínimo Viab
 Sobre estas tres interfaces se instalan los primeros contratos de acoplamiento y se definen las primeras envolventes de viabilidad paramétrica (presupuesto de error, tiempos máximos de degradación). El resto de la organización continúa operando bajo el modelo de control heredado. 
 
 La migración no se decreta por política; se tracciona por evidencia. El modelo no se adopta por convicción. Se impone por evidencia. El MVP se considera validado cuando una interfaz intervenida demuestra, bajo estrés controlado, que puede absorber fricción, mantener la latencia dentro de la envolvente y generar evidencia inmutable del proceso sin intervención jerárquica. **La arquitectura no se valida en diseño. Se valida bajo estrés en producción.**
+
+---
 
 ### 21.4. Anatomía forense del sensor transversal
 

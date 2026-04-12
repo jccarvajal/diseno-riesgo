@@ -6,6 +6,8 @@ Una vez instalados los sensores transversales, codificados los contratos de acop
 
 Sin este bucle, la organización acumula tensión estructural sin mecanismo de descarga. El colapso no es una posibilidad; es una acumulación inevitable. El sistema se gobierna mediante un bucle cerrado: la telemetría modifica los parámetros operativos, y esos parámetros alteran la telemetría. No existe intervención externa necesaria para su regulación básica.
 
+---
+
 ### 24.1. La definición forense del estado del sistema
 
 El modelo heredado evalúa la salud de la organización revisando tableros de control llenos de indicadores de desempeño (KPIs) rezagados. Observar métricas de producción de hace treinta días para tomar decisiones hoy equivale a pilotar a ciegas basándose en el registro histórico del vuelo. 
@@ -14,9 +16,12 @@ Bajo la nueva arquitectura, la evaluación de la salud organizacional cambia de 
 
 Si un área rompe su récord de producción, pero la interfaz que la conecta con el resto de la red está saturada de excepciones manuales y la latencia perfora el contrato de acoplamiento, la organización no es exitosa; está al borde del fallo sistémico. La regla de auditoría es absoluta: **El sistema no está en control cuando cumple sus KPIs. Está en control única y exclusivamente cuando sus interfaces operan dentro de la tolerancia de diseño.**
 
+---
+
 ### 24.2. Variables explícitas de recalibración
 
 Para que el bucle de adaptación funcione sin latencia, no puede depender de la intuición directiva ni de la deliberación gerencial. Depende de la telemetría dura que extrae la Capa de Observabilidad. El motor de adaptación lee continuamente un conjunto de variables termodinámicas precisas:
+
 * **Nivel de acoplamiento efectivo:** La rigidez matemática con la que un nodo depende del otro en un milisegundo específico.
 * **Umbrales de latencia consumida:** Qué porcentaje del tiempo máximo de respuesta permitido se está utilizando para procesar la interacción.
 * **Frecuencia de fricción:** La tasa de eventos sistémicos que requieren intervención manual o corrección algorítmica en la frontera.
@@ -24,15 +29,19 @@ Para que el bucle de adaptación funcione sin latencia, no puede depender de la 
 
 Estas variables no se recopilan para generar un reporte mensual. Son los datos de entrada (*inputs*) mecánicos que alimentan el cierre del sistema.
 
+---
+
 ### 24.3. Respiración sistémica: Expansión y contracción ineludible
 
 La verdadera gobernanza ocurre cuando la red utiliza esta telemetría para modificar su propia topología de forma autónoma. A esto lo llamamos respiración sistémica.
 
-Si la telemetría indica que el entorno es altamente volátil —la fricción en las interfaces aumenta y la latencia se acerca a los límites críticos— el sistema se contrae automáticamente. Reduce el tamaño de las envolventes de viabilidad periféricas, disminuye la autonomía táctica, endurece las reglas de acoplamiento y frena el flujo transaccional para priorizar la supervivencia operativa. Todo sistema que no puede contraerse bajo presión externa está diseñado para fracturarse.
+Si la telemetría indica que el entorno es altamente volátil, la fricción en las interfaces aumenta y la latencia se acerca a los límites críticos, el sistema se contrae automáticamente. Reduce el tamaño de las envolventes de viabilidad periféricas, disminuye la autonomía táctica, endurece las reglas de acoplamiento y frena el flujo transaccional para priorizar la supervivencia operativa. Todo sistema que no puede contraerse bajo presión externa está diseñado para fracturarse.
 
 A la inversa, si el entorno se estabiliza, la latencia cae y las excepciones desaparecen, el sistema se expande. Relaja las envolventes paramétricas, aumenta la autonomía en la frontera y permite mayor velocidad. Este ajuste paramétrico está pre-codificado y se ejecuta sin debate político. El sistema no "decide" adaptarse; responde mecánicamente a la presión del entorno. Cualquier intervención manual sobre los parámetros del bucle fuera de condiciones predefinidas introduce ruido y degrada la capacidad adaptativa del sistema.
 
 El bucle falla cuando la latencia de adaptación supera la velocidad de cambio del entorno. En ese punto, el sistema deja de calibrarse y comienza a acumular error estructural. Por ello, el SRE corporativo no opera el sistema; opera el bucle. Su función no es mantener la estabilidad, sino garantizar la capacidad de adaptación ininterrumpida.
+
+---
 
 ### 24.4. Cierre del modelo: La inevitabilidad física
 

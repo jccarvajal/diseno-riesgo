@@ -6,11 +6,15 @@ El diagnóstico del desajuste arquitectónico culmina en una exigencia ineludibl
 
 En el modelo heredado, la integración era considerada un subproducto deseable del organigrama o un mero esfuerzo táctico de coordinación. En un ecosistema fuertemente acoplado, esto es un error fatal. Sin integración transversal explícita, el sistema es ingobernable por diseño. Y la ley fundamental de este bloque es categórica: **la integración no es coordinación, es una función estructural del sistema.**
 
+---
+
 ### 17.1. La interfaz como unidad de diseño primario
 
 La adaptación arquitectónica comienza con una inversión topológica total. Diseñar nodos primero y conexiones después es un error en sistemas complejos. 
 
 Mientras el diseño tradicional invierte todo su ancho de banda analítico en definir la anatomía de las gerencias, la arquitectura adaptada eleva la conexión a la categoría principal. **En sistemas complejos, la unidad de diseño no es el componente. Es la relación.** Y por extensión: **la unidad de riesgo en sistemas complejos no es el nodo, es la interfaz.** Diseñar nodos sin diseñar sus interacciones es diseñar un sistema que no puede ser gobernado. Diseñar para la integración significa establecer protocolos de arbitraje y límites de acoplamiento explícitos para los espacios intersticiales, mucho antes de optimizar el rendimiento interno de los dominios que estos conectan.
+
+---
 
 ### 17.2. Institucionalización de la fricción
 
@@ -18,11 +22,15 @@ La jerarquía funcional purga el "ruido" de las interacciones para no sobrecarga
 
 **Eliminar fricción elimina información crítica.** El sistema no debe apagar la fricción; debe entenderla como telemetría estructural. **Un sistema sin fricción observable es un sistema sin visibilidad de su riesgo.** Una arquitectura adaptada institucionaliza esta tensión; crea mecanismos topológicos diseñados exclusivamente para medir el diferencial de presión entre sistemas acoplados en tiempo real.
 
+---
+
 ### 17.3. Sensores transversales y absorción de variedad
 
 Gobernar la integración transversal exige capacidades de observación sistémica que operen ortogonalmente a la jerarquía tradicional. El cambio no es de herramienta tecnológica, es de pregunta.
 
 **La jerarquía no puede observar interacciones, solo estados.** Por lo tanto, estos sensores transversales no evalúan el rendimiento aislado de un departamento; evalúan el estado de salud de la interacción. **Medir nodos es medir resultados. Medir interfaces es medir riesgo.** La organización deja de preguntarse "¿Está el área X cumpliendo su meta?" para preguntarse "¿Está la fricción entre X e Y incubando una cascada latente?". La regla geométrica del control asume el mando: **lo que no se observa en la interfaz, no existe para la gobernanza.**
+
+---
 
 ### 17.4. El abandono de la exhortación cultural
 

@@ -6,6 +6,8 @@ La culminación de la adaptación arquitectónica no es alcanzar un estado final
 
 Cuando el riesgo es una propiedad emergente de la interdependencia transversal y las capacidades humanas para predecir el impacto están estructuralmente limitadas, la arquitectura organizacional no puede seguir operando bajo la premisa de la certidumbre predictiva. La gobernanza deja de ser un ejercicio de eliminación para convertirse en la modulación continua de la arquitectura bajo condiciones de incertidumbre permanente.
 
+---
+
 ### 20.1. De la predictibilidad lineal a la absorción estructural
 
 La distinción epistemológica fundamental radica en la diferencia entre riesgo e incertidumbre. El modelo de gestión tradicional fue diseñado para gobernar el riesgo calculable: eventos discretos con probabilidades históricas. La gobernanza en sistemas complejos se enfrenta a la incertidumbre pura: cascadas no lineales que carecen de precedentes.
@@ -13,6 +15,8 @@ La distinción epistemológica fundamental radica en la diferencia entre riesgo 
 Frente a la incertidumbre permanente, la predicción deja de ser una herramienta útil de gobierno. **En sistemas complejos, la predicción no falla ocasionalmente. Es estructuralmente inválida.** El intento de anticipar el futuro analizando los componentes aislados del pasado es fútil. Anticipar el futuro deja de ser una ventaja; diseñar para sobrevivirlo se vuelve una obligación. 
 
 Una arquitectura adaptada asume que el fallo ocurrirá y que las interacciones no gobernadas generarán fricción imprevista. La gobernanza se desplaza hacia el diseño de una topología capaz de absorber el impacto térmico de la sorpresa. **La resiliencia no es evitar el fallo, sino absorberlo.**
+
+---
 
 ### 20.2. Gobernanza como modulación del acoplamiento
 
@@ -22,13 +26,17 @@ El acoplamiento no se elimina. Se regula. **Gobernar es modular el acoplamiento.
 
 Gobernar es administrar esta válvula de presión, aceptando una ley física inquebrantable: **la eficiencia máxima implica fragilidad máxima.** El acoplamiento no es una propiedad técnica; es una decisión estratégica. **Un sistema sin capacidad de modular su acoplamiento está diseñado para colapsar.**
 
+---
+
 ### 20.3. La proporcionalidad arquitectónica y el principio de variedad
 
 El imperativo definitivo para la gobernanza contemporánea es el cumplimiento estricto de la Ley de Variedad Requerida. **Un sistema no puede ser más simple que el entorno que intenta gobernar.** La organización fracasa cuando su arquitectura de control es más simple que el ecosistema de amenazas.
 
 Si el entorno genera riesgos emergentes a través de redes tecnológicas opacas y de alta velocidad, la gobernanza no puede responder con matrices bidimensionales y comités mensuales. Requiere validación continua, control embebido en el código y la institucionalización de la fricción como telemetría vital. Simplificar el modelo no reduce el riesgo. Lo oculta. **La incertidumbre exige complejidad estructural, no simplificación.** La incertidumbre no se gobierna forzando al entorno para que encaje en el organigrama, sino elevando la complejidad de la arquitectura de respuesta.
 
-### 20.4. El diseño frente a la complejidad (Conclusión)
+---
+
+### 20.4. El diseño frente a la complejidad
 
 El modelo de segregación en riesgos financieros, operacionales y legales funcionó de manera brillante durante décadas. Fue la respuesta racional para escalar la producción en un mundo con fricción temporal y separabilidad física. 
 

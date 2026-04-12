@@ -6,11 +6,15 @@ Frente a la abrumadora compresión del tiempo decisional (Capítulo 8) y la insa
 
 Esta delegación es un imperativo de diseño bajo la Ley de Variedad Requerida. Sin embargo, al delegar sin comprender, la organización adquiere una patología estructural mucho más severa: la opacidad intrínseca. **Delegar sin comprender no es control. Es transferencia de riesgo.**
 
+---
+
 ### 11.1. La abdicación cognitiva como imperativo de diseño
 
 En el modelo heredado, la tecnología operaba como una herramienta de registro estático. El humano tomaba la decisión y la máquina la ejecutaba. En el diseño contemporáneo, el flujo se ha invertido. Ante el acoplamiento fuerte, la jerarquía delega en el algoritmo la tarea de interpretar las interdependencias y emitir un juicio operativo en tiempo real. 
 
 Esta transferencia altera radicalmente la topología del control. **La organización no delega la ejecución. Delega el juicio.** Y la regla física aquí es implacable: **delegar juicio implica renunciar al control directo.** El humano deja de ser el procesador primario para convertirse en un supervisor periférico de una caja negra, perdiendo la capacidad estructural de comprender el sistema que supuestamente gobierna.
+
+---
 
 ### 11.2. La caja negra y la destrucción del Análisis Causal
 
@@ -20,11 +24,15 @@ Los ecosistemas dinámicos operan mediante inferencias probabilísticas sobre da
 
 **Sin trazabilidad, no existe responsabilidad verificable.** Las áreas de control exigen transparencia cartesiana a un sistema que opera mediante opacidad probabilística. **Todo sistema que no puede ser explicado no puede ser gobernado linealmente.**
 
+---
+
 ### 11.3. La ironía del control y la transferencia crítica
 
 La automatización profunda elimina la fricción, pero también elimina la visibilidad. **La automatización desplaza la ejecución, pero no elimina el riesgo.** El humano pierde conciencia situacional al ser alejado del contexto táctico.
 
 La paradoja estructural estalla cuando el sistema tecnológico se enfrenta a una anomalía que excede sus parámetros. El sistema opera en automático, pero falla en manual. **La automatización resuelve la operación normal y transfiere la crisis al humano.** El sistema optimiza la normalidad y externaliza la excepción. Al no poder resolver la crisis matemática, el algoritmo devuelve abruptamente el control. **La crisis siempre vuelve al humano.** La intervención ocurre entonces en el peor momento posible: bajo máxima complejidad temporal y con el mínimo contexto situacional. La arquitectura delega el funcionamiento normal a la máquina, pero reserva la gestión de la crisis sistémica a la mente más lenta y descontextualizada de la sala.
+
+---
 
 ### 11.4. Opacidad activa y riesgo ejecutable
 

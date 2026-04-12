@@ -22,7 +22,7 @@ Este anexo no es una lista de lectura académica para gerentes; es el marco teó
 
 * **Nygard, M. (2018).** "Release It!: Design and Deploy Production-Ready Software". Pragmatic Bookshelf. [[Ver Libro]](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395)
     * **Por qué leerlo:** El manual técnico definitivo para la contención de daños. De aquí nace la implementación literal de los **Circuit Breakers (Cortocircuitos)**, **Bulkheads (Compartimentos Estancos)** y la **Degradación Elegante**. Traduce el concepto de supervivencia a patrones arquitectónicos exactos para reducir el $T_c$.
-* **Beer, S. (1972).** "Brain of the Firm: The Managerial Cybernetics of Organization". Allen Lane. [[Ver Libro]](https://www.amazon.com/Brain-Firm-Managerial-Cybernetics-Organization/dp/0471922869)
+* **Beer, S. (1972).** "Brain of the Firm: The Managerial Cybernetics of Organization". Allen Lane. [[Ver Libro]](https://www.amazon.com/Managerial-cybernetics-organization-Stafford-1981-02-04/dp/B019TM5RWK)
     * **Por qué leerlo:** La obra maestra de la cibernética organizacional y el Modelo de Sistema Viable (VSM). Provee el sustento de la **Ley de Imputabilidad Estructural**, demostrando que un nivel jerárquico no puede controlar un sistema si no posee la "variedad" (capacidad de procesamiento y velocidad) necesaria para absorber las perturbaciones de la red.
 
 ### Bloque 4: La Certeza Balística (SRE y Pruebas de Estrés)
@@ -34,7 +34,7 @@ Este anexo no es una lista de lectura académica para gerentes; es el marco teó
 
 ### Bloque 5: La Viabilidad Estructural (Adaptación y Envolventes)
 
-* **Ashby, W. R. (1956).** "An Introduction to Cybernetics". Chapman & Hall. [[Ver Libro]](https://www.amazon.com/Introduction-Cybernetics-W-Ross-Ashby/dp/1614277651)
+* **Ashby, W. R. (1956).** "An Introduction to Cybernetics". Chapman & Hall. [[Ver Libro]](https://www.amazon.com/Introduction-Cybernetics-W-Ross-Ashby/dp/1614277656/)
     * **Por qué leerlo:** La formulación matemática de la **Ley de la Variedad Requerida** ("Solo la variedad absorbe variedad"). Es la prueba científica de por qué un directorio con controles lentos no puede gobernar un sistema rápido. Si la arquitectura de control (SRE/Cortocircuitos) no tiene la misma complejidad y velocidad que la amenaza, el sistema colapsa por déficit estructural.
 * **Dekker, S. (2011).** "Drift into Failure: From Hunting Broken Components to Understanding Complex Systems". Ashgate. [[Ver Libro]](https://www.amazon.com/Drift-into-Failure-Components-Understanding/dp/1409422216)
     * **Por qué leerlo:** Demuestra forensemente cómo los sistemas caen en la "deriva hacia el fallo" justificando pequeñas excepciones operativas (nuestro concepto de *Interacciones Huérfanas*). Destruye por completo el Análisis de Causa Raíz (RCA) tradicional y justifica la necesidad imperiosa de las **Envolventes de Viabilidad**.
@@ -43,5 +43,5 @@ Este anexo no es una lista de lectura académica para gerentes; es el marco teó
 
 * **Forsgren, N., Humble, J., & Kim, G. (2018).** "Accelerate: The Science of Lean Software and DevOps". IT Revolution Press. [[Ver Libro]](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
     * **Por qué leerlo:** Provee la evidencia estadística y científica para sostener la **Gobernanza Bimodal**. Demuestra que la velocidad de operación y la estabilidad (riesgo) no son un juego de suma cero. La inyección de políticas en el código (Compliance as Code) es lo único que permite gobernar sin ser el cuello de botella.
-* **Woods, D. D., et al. (2015).** "Resilience Engineering in Practice: A Guidebook". Ashgate. [[Ver Libro]](https://www.amazon.com/Resilience-Engineering-Practice-Guidebook-Ashgate/dp/1409472019)
+* **Woods, D. D., et al. (2015).** "Resilience Engineering in Practice: A Guidebook". Ashgate. [[Ver Libro]](https://www.amazon.com/Resilience-Engineering-Practice-Guidebook-Ashgate/dp/1472420748)
     * **Por qué leerlo:** El manual definitivo sobre cómo sostener el **Bucle de Adaptación Continua**. Explica cómo las organizaciones deben cambiar su postura de "respuesta a incidentes" a una postura de "monitoreo de la tensión de la red", justificando la eliminación de los KPIs divisionales que fomentan la optimización local destructiva.

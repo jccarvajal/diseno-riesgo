@@ -17,7 +17,7 @@ Opero en la intersección crítica donde la **Física Organizacional** choca con
 
 Mi trabajo no consiste en gestionar el riesgo mediante matrices de calor o políticas documentales, sino en diseñar **Arquitecturas Sistémicas** que permitan a las organizaciones desmantelar la ilusión de control directivo y establecer envolventes de viabilidad matemáticas e inquebrantables.
 
-Esta obra, **[El Diseño del Riesgo](https://riesgo.jccarvajal.com)**, sistematiza esa práctica: erradicar el control diferido, instaurar la modulación del acoplamiento sistémico y convertir la resiliencia en cortocircuitos ejecutables (*circuit breakers*), asegurando que la organización sobreviva a su propia complejidad bajo un estándar de degradación elegante y validación empírica ineludible.
+Esta obra, **[Diseño del Riesgo](https://riesgo.jccarvajal.com)**, sistematiza esa práctica: erradicar el control diferido, instaurar la modulación del acoplamiento sistémico y convertir la resiliencia en cortocircuitos ejecutables (*circuit breakers*), asegurando que la organización sobreviva a su propia complejidad bajo un estándar de degradación elegante y validación empírica ineludible.
 
 ### Conecta conmigo
 

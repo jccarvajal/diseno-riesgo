@@ -1,0 +1,122 @@
+site_name: Diseño del Riesgo
+site_url: https://riesgo.jccarvajal.com
+site_author: Juan Carlos Carvajal
+site_description: Arquitectura del Riesgo y Física del Colapso Organizacional
+copyright: Copyright &copy; 2026 Juan Carlos Carvajal - Licencia CC BY-NC-ND 4.0
+
+# Configuración del Tema (Material for MkDocs - Modo Institucional/Sobrio)
+theme:
+  name: material
+  language: es
+  logo: assets/images/portada-riesgo.png
+  favicon: assets/images/favicon.ico
+  palette: 
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+# Extensiones (ACTIVACIÓN DE MERMAID & LATEX)
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex: # Para fórmulas matemáticas (Matemática del Riesgo)
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+# Sección de Plugins  
+plugins:
+  - search
+
+# Mapa del Sitio (Estructura del Libro III)
+nav:
+  - Inicio: index.md
+  - Introducción:
+    - Nota al Lector: nota-al-lector.md
+    - Prólogo Ejecutivo: prologo.md
+    - Ideas Centrales: ideas-centrales.md
+  - 'Bloque 1: El Modelo Heredado':
+      - 'Capítulo 01: Riesgo financiero, operacional y legal': capitulos/01-modelo-heredado.md
+      - 'Capítulo 02: Especialización funcional y jerarquía': capitulos/02-jerarquia-funcional.md
+      - 'Capítulo 03: Supuestos de linealidad y separabilidad': capitulos/03-supuestos-linealidad.md
+      - 'Capítulo 04: Persistencia estructural del modelo': capitulos/04-persistencia-estructural.md
+  - 'Bloque 2: Interdependencia y Aceleración':
+      - 'Capítulo 05: Expansión del universo de riesgos': capitulos/05-expansion-riesgos.md
+      - 'Capítulo 06: Transversalidad y acoplamiento fuerte': capitulos/06-acoplamiento-fuerte.md
+      - 'Capítulo 07: Cascadas y amplificación sistémica': capitulos/07-cascadas-sistemicas.md
+      - 'Capítulo 08: Compresión temporal y latencia de decisión': capitulos/08-compresion-temporal.md
+  - 'Bloque 3: Límites Humanos y Desajuste':
+      - 'Capítulo 09: Capacidad limitada de integración': capitulos/09-limite-cognitivo.md
+      - 'Capítulo 10: Fragmentación y puntos ciegos': capitulos/10-puntos-ciegos.md
+      - 'Capítulo 11: Delegación tecnológica y opacidad': capitulos/11-delegacion-opaca.md
+      - 'Capítulo 12: Restricción temporal y asimetría de conocimiento': capitulos/12-asimetria-conocimiento.md
+  - 'Bloque 4: Riesgo como Propiedad Emergente':
+      - 'Capítulo 13: Riesgo lineal vs riesgo sistémico': capitulos/13-riesgo-sistemico.md
+      - 'Capítulo 14: Interacciones no gobernadas': capitulos/14-interacciones-huerfanas.md
+      - 'Capítulo 15: Señales débiles y ruido organizacional': capitulos/15-senales-debiles.md
+      - 'Capítulo 16: Asimetría de consecuencia': capitulos/16-asimetria-consecuencia.md
+  - 'Bloque 5: Adaptación Arquitectónica':
+      - 'Capítulo 17: Integración transversal como función del sistema': capitulos/17-integracion-transversal.md
+      - 'Capítulo 18: Topología de la decisión y envolventes de viabilidad': capitulos/18-envolventes-viabilidad.md
+      - 'Capítulo 19: Stress testing sistémico y validación empírica': capitulos/19-stress-testing.md
+      - 'Capítulo 20: Gobernanza bajo incertidumbre permanente': capitulos/20-gobernanza-incertidumbre.md
+  - 'Bloque 6: LArquitectura Operacional y Despliegue Sistémico':
+      - 'Capítulo 21: La transición arquitectónica y la gobernanza bimodal': capitulos/21-gobernanza-bimodal.md
+      - 'Capítulo 22: Ingeniería de incentivos y métricas de red': capitulos/22-ingenieria-incentivos.md
+      - 'Capítulo 23: La mutación del control interno y el SRE corporativo': capitulos/23-sre-corporativo.md
+      - 'Capítulo 24: El bucle de adaptación continua y la inevitabilidad sistémica': capitulos/24-bucle-adaptacion.md
+  - Conclusión:
+      - 'Epílogo': epilogo.md
+  - Anexos Operativos:
+      - 'Anexo A: Modelo de Diagnóstico de Complejidad Organizacional': anexos/A-diagnostico-complejidad.md
+      - 'Anexo B: Mapa de Interdependencias Críticas': anexos/B-mapa-interdependencias.md
+      - 'Anexo C: Índice de Acoplamiento Sistémico': anexos/C-indice-acoplamiento.md
+      - 'Anexo D: Framework de Stress Testing Sistémico': anexos/D-stress-testing.md  
+      - 'Anexo E: Matriz de Asimetría de Conocimiento y Consecuencia': anexos/E-matriz-asimetria.md  
+      - 'Anexo F: Formalización Paramétrica de las Envolventes de Viabilidad': anexos/F-envolventes-viabilidad.md  
+      - 'Anexo G: Protocolo de Implementación Sistémica (12 Meses)': anexos/G-protocolo-despliegue.md  
+      - 'Anexo H: Autopsias Forenses Comparadas': anexos/H-autopsias-forenses.md  
+  - Referencias:
+    - Glosario: referencias/Glosario.md
+    - Bibliografía: referencias/Bibliografia.md
+  - Acerca de:
+    - Autor: acerca/autor.md
+    - Licencia: acerca/licence.md
+    - Cómo Contribuir: acerca/contribuir.md
+    - Historial (Changelog): changelog.md

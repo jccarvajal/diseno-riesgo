@@ -10,44 +10,16 @@
 
 ## 🎧 Versión Audio (Resumen / Podcast)
 
-<audio controls>
-  <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
-  Tu navegador no soporta audio.
-</audio>
-
-*Interpretación asistida del contenido para consumo rápido.*
-
----
-
-## 🎧 Versión Audio (Resumen / Podcast)
-
 Si no quieres leer el libro completo, puedes comenzar por esta versión audio:
 
 ⏱️ **Duración:** 20 minutos  
-📌 **Contenido:** tesis central, modelo operativo e implicancias prácticas
 
 <audio controls>
   <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
   Tu navegador no soporta audio.
 </audio>
 
-<div>
-  <button onclick="setSpeed(1)">1x</button>
-  <button onclick="setSpeed(1.25)">1.25x</button>
-  <button onclick="setSpeed(1.5)">1.5x</button>
-  <button onclick="setSpeed(2)">2x</button>
-</div>
-
-<script>
-  const audio = document.getElementById("audioPlayer");
-
-  function setSpeed(rate) {
-    audio.playbackRate = rate;
-  }
-</script>
-
-*La versión audio actúa como una interfaz de entrada al modelo. No reemplaza el contenido completo; permite comprender su estructura antes de profundizar en la lectura.*
-
+*Versión en audio para entender rápidamente el contenido antes de profundizar en la lectura.*
 ---
 
 ## Descripción del Proyecto

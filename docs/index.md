@@ -8,6 +8,17 @@
 
 ---
 
+## 🎧 Versión Audio (Resumen / Podcast)
+
+<audio controls>
+  <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
+  Tu navegador no soporta audio.
+</audio>
+
+*Interpretación asistida del contenido para consumo rápido.*
+
+---
+
 ## Descripción del Proyecto
 
 La tranquilidad corporativa contemporánea reposa sobre un error categorial masivo. Las organizaciones gastan millones en matrices de calor, auditorías de cumplimiento y comités de riesgo, asumiendo que gobiernan su infraestructura, cuando en realidad solo administran su propia ceguera.

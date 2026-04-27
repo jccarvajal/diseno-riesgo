@@ -19,6 +19,22 @@
 
 ---
 
+## 🎧 Versión Audio (Resumen / Podcast)
+
+Si no quieres leer el libro completo, puedes comenzar por esta versión audio:
+
+⏱️ **Duración:** 20 minutos  
+📌 **Contenido:** tesis central, modelo operativo e implicancias prácticas
+
+<audio controls>
+  <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
+  Tu navegador no soporta audio.
+</audio>
+
+*La versión audio actúa como una interfaz de entrada al modelo. No reemplaza el contenido completo; permite comprender su estructura antes de profundizar en la lectura.*
+
+---
+
 ## Descripción del Proyecto
 
 La tranquilidad corporativa contemporánea reposa sobre un error categorial masivo. Las organizaciones gastan millones en matrices de calor, auditorías de cumplimiento y comités de riesgo, asumiendo que gobiernan su infraestructura, cuando en realidad solo administran su propia ceguera.

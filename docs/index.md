@@ -31,6 +31,21 @@ Si no quieres leer el libro completo, puedes comenzar por esta versión audio:
   Tu navegador no soporta audio.
 </audio>
 
+<div>
+  <button onclick="setSpeed(1)">1x</button>
+  <button onclick="setSpeed(1.25)">1.25x</button>
+  <button onclick="setSpeed(1.5)">1.5x</button>
+  <button onclick="setSpeed(2)">2x</button>
+</div>
+
+<script>
+  const audio = document.getElementById("audioPlayer");
+
+  function setSpeed(rate) {
+    audio.playbackRate = rate;
+  }
+</script>
+
 *La versión audio actúa como una interfaz de entrada al modelo. No reemplaza el contenido completo; permite comprender su estructura antes de profundizar en la lectura.*
 
 ---

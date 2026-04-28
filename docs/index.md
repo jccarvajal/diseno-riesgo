@@ -10,7 +10,7 @@
 
 ## 🎧 Versión Audio (Resumen / Podcast)
 
-Antes de leer el libro completo, puedes comenzar por esta versión audio:
+Antes de leer, puedes comenzar por el audio:
 
 ⏱️ **Duración:** 20 minutos  
 
@@ -18,8 +18,6 @@ Antes de leer el libro completo, puedes comenzar por esta versión audio:
   <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
   Tu navegador no soporta audio.
 </audio>
-
-*Version audio para entender rápidamente el contenido antes de profundizar en la lectura.*
 
 ---
 

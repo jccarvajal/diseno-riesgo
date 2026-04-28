@@ -10,7 +10,7 @@
 
 ## 🎧 Versión Audio (Resumen / Podcast)
 
-Si no quieres leer el libro completo, puedes comenzar por esta versión audio:
+Antes de leer el libro completo, puedes comenzar por esta versión audio:
 
 ⏱️ **Duración:** 20 minutos  
 
@@ -19,7 +19,8 @@ Si no quieres leer el libro completo, puedes comenzar por esta versión audio:
   Tu navegador no soporta audio.
 </audio>
 
-*Versión en audio para entender rápidamente el contenido antes de profundizar en la lectura.*
+*Version audio para entender rápidamente el contenido antes de profundizar en la lectura.*
+
 ---
 
 ## Descripción del Proyecto

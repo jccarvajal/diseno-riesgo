@@ -12,7 +12,7 @@
 
 Antes de leer, puedes comenzar por el audio:
 
-⏱️ **Duración:** 20 minutos  
+⏱️ **Duración:** 22 minutos  
 
 <audio controls>
   <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">

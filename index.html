@@ -1,0 +1,2893 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Arquitectura del Riesgo y Física del Colapso Organizacional">
+      
+      
+        <meta name="author" content="Juan Carlos Carvajal">
+      
+      
+        <link rel="canonical" href="https://riesgo.jccarvajal.com/">
+      
+      
+      
+        <link rel="next" href="nota-al-lector/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Diseño del Riesgo</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diseno-del-riesgo" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="." title="Diseño del Riesgo" class="md-header__button md-logo" aria-label="Diseño del Riesgo" data-md-component="logo">
+      
+  <img src="assets/images/portada-riesgo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño del Riesgo
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inicio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="nota-al-lector/" class="md-tabs__link">
+          
+  
+  
+  Introducción
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/01-modelo-heredado/" class="md-tabs__link">
+          
+  
+  
+  Bloque 1: El Modelo Heredado
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/05-expansion-riesgos/" class="md-tabs__link">
+          
+  
+  
+  Bloque 2: Interdependencia y Aceleración
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/09-limite-cognitivo/" class="md-tabs__link">
+          
+  
+  
+  Bloque 3: Límites Humanos y Desajuste
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/13-riesgo-sistemico/" class="md-tabs__link">
+          
+  
+  
+  Bloque 4: Riesgo como Propiedad Emergente
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/17-integracion-transversal/" class="md-tabs__link">
+          
+  
+  
+  Bloque 5: Adaptación Arquitectónica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/21-gobernanza-bimodal/" class="md-tabs__link">
+          
+  
+  
+  Bloque 6: Arquitectura Operacional y Despliegue Sistémico
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="epilogo/" class="md-tabs__link">
+          
+  
+  
+  Conclusión
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="anexos/A-diagnostico-complejidad/" class="md-tabs__link">
+          
+  
+  
+  Anexos Operativos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="referencias/Glosario/" class="md-tabs__link">
+          
+  
+  
+  Referencias
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="acerca/autor/" class="md-tabs__link">
+          
+  
+  
+  Acerca de
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Diseño del Riesgo" class="md-nav__button md-logo" aria-label="Diseño del Riesgo" data-md-component="logo">
+      
+  <img src="assets/images/portada-riesgo.png" alt="logo">
+
+    </a>
+    Diseño del Riesgo
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arquitectura-del-riesgo-y-fisica-del-colapso-organizacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arquitectura del Riesgo y Física del Colapso Organizacional
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-audio-resumen-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎧 Versión Audio (Resumen / Podcast)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del Proyecto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Descripción del Proyecto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-quien-va-dirigida-esta-obra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿A quién va dirigida esta obra?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tesis-central-el-riesgo-como-propiedad-emergente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tesis Central: El Riesgo como Propiedad Emergente
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-de-la-documentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estructura de la Documentación
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura de la Documentación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-1-el-modelo-heredado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 1: El Modelo Heredado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-2-interdependencia-y-aceleracion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 2: Interdependencia y Aceleración
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-3-limites-humanos-y-desajuste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 3: Límites Humanos y Desajuste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-4-riesgo-como-propiedad-emergente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 4: Riesgo como Propiedad Emergente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-5-adaptacion-arquitectonica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 5: Adaptación Arquitectónica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-6-arquitectura-operacional-y-despliegue-sistemico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 6: Arquitectura Operacional y Despliegue Sistémico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusión
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anexos-operativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anexos Operativos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-y-fundamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referencias y Fundamento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changelog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sugerencias-y-mejoras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sugerencias y Mejoras
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licencia
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Introducción
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nota-al-lector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nota al Lector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prologo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prólogo Ejecutivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ideas-centrales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ideas Centrales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 1: El Modelo Heredado
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 1: El Modelo Heredado
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/01-modelo-heredado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 01: Riesgo financiero, operacional y legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/02-jerarquia-funcional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 02: Especialización funcional y jerarquía
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/03-supuestos-linealidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 03: Supuestos de linealidad y separabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/04-persistencia-estructural/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 04: Persistencia estructural del modelo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 2: Interdependencia y Aceleración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 2: Interdependencia y Aceleración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/05-expansion-riesgos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 05: Expansión del universo de riesgos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/06-acoplamiento-fuerte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 06: Transversalidad y acoplamiento fuerte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/07-cascadas-sistemicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 07: Cascadas y amplificación sistémica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/08-compresion-temporal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 08: Compresión temporal y latencia de decisión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 3: Límites Humanos y Desajuste
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 3: Límites Humanos y Desajuste
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/09-limite-cognitivo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 09: Capacidad limitada de integración
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/10-puntos-ciegos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 10: Fragmentación y puntos ciegos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/11-delegacion-opaca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 11: Delegación tecnológica y opacidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/12-asimetria-conocimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 12: Restricción temporal y asimetría de conocimiento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 4: Riesgo como Propiedad Emergente
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 4: Riesgo como Propiedad Emergente
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/13-riesgo-sistemico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 13: Riesgo lineal vs riesgo sistémico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/14-interacciones-huerfanas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 14: Interacciones no gobernadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/15-senales-debiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 15: Señales débiles y ruido organizacional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/16-asimetria-consecuencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 16: Asimetría de consecuencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 5: Adaptación Arquitectónica
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 5: Adaptación Arquitectónica
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/17-integracion-transversal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 17: Integración transversal como función del sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/18-envolventes-viabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 18: Topología de la decisión y envolventes de viabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/19-stress-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 19: Stress testing sistémico y validación empírica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/20-gobernanza-incertidumbre/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 20: Gobernanza bajo incertidumbre permanente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 6: Arquitectura Operacional y Despliegue Sistémico
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 6: Arquitectura Operacional y Despliegue Sistémico
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/21-gobernanza-bimodal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 21: La transición arquitectónica y la gobernanza bimodal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/22-ingenieria-incentivos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 22: Ingeniería de incentivos y métricas de red
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/23-sre-corporativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 23: La mutación del control interno y el SRE corporativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/24-bucle-adaptacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 24: El bucle de adaptación continua y la inevitabilidad sistémica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conclusión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conclusión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="epilogo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epílogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexos Operativos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Anexos Operativos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/A-diagnostico-complejidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo A: Modelo de Diagnóstico de Complejidad Organizacional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/B-mapa-interdependencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo B: Mapa de Interdependencias Críticas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/C-indice-acoplamiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo C: Índice de Acoplamiento Sistémico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/D-stress-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo D: Framework de Stress Testing Sistémico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/E-matriz-asimetria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo E: Matriz de Asimetría de Conocimiento y Consecuencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/F-envolventes-viabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo F: Formalización Paramétrica de las Envolventes de Viabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/G-protocolo-despliegue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo G: Protocolo de Implementación Sistémica (12 Meses)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/H-autopsias-forenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo H: Autopsias Forenses Comparadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referencias
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Referencias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="referencias/Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="referencias/Bibliografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bibliografía
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acerca de
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acerca de
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/autor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/licence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/contribuir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cómo Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historial (Changelog)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="diseno-del-riesgo">Diseño del Riesgo<a class="headerlink" href="#diseno-del-riesgo" title="Permanent link">&para;</a></h1>
+<h2 id="arquitectura-del-riesgo-y-fisica-del-colapso-organizacional">Arquitectura del Riesgo y Física del Colapso Organizacional<a class="headerlink" href="#arquitectura-del-riesgo-y-fisica-del-colapso-organizacional" title="Permanent link">&para;</a></h2>
+<p><strong>Versión 1.0 (Abril 2026)</strong></p>
+<p><strong>Autor:</strong> <a href="https://www.jccarvajal.com/">Juan Carlos Carvajal</a></p>
+<p><img src="assets/images/portada-riesgo.png" alt="Portada del Libro - El Diseño del Riesgo" width="500"></p>
+<hr />
+<h2 id="version-audio-resumen-podcast">🎧 Versión Audio (Resumen / Podcast)<a class="headerlink" href="#version-audio-resumen-podcast" title="Permanent link">&para;</a></h2>
+<p>Antes de leer, puedes comenzar por el audio:</p>
+<p>⏱️ <strong>Duración:</strong> 22 minutos  </p>
+<p><audio controls preload="none">
+  <source src="assets/audio/diseno-riesgo.m4a" type="audio/mp4">
+  Tu navegador no soporta audio.
+</audio></p>
+<hr />
+<h2 id="descripcion-del-proyecto">Descripción del Proyecto<a class="headerlink" href="#descripcion-del-proyecto" title="Permanent link">&para;</a></h2>
+<p>La tranquilidad corporativa contemporánea reposa sobre un error categorial masivo. Las organizaciones gastan millones en matrices de calor, auditorías de cumplimiento y comités de riesgo, asumiendo que gobiernan su infraestructura, cuando en realidad solo administran su propia ceguera.</p>
+<p><strong>"Diseño del Riesgo"</strong> no es un manual de buenas prácticas ni un framework de cultura organizacional. Es un <strong>tratado de física organizacional y arquitectura sistémica</strong> diseñado para desmantelar la ilusión del control directivo y establecer una nueva doctrina de supervivencia corporativa.</p>
+<p>Este repositorio documenta un marco de ingeniería operativa concebido para:</p>
+<ol>
+<li><strong>Gobernar la Interfaz, no el Nodo:</strong> Abandonar la optimización local y los KPIs divisionales para priorizar la restricción matemática de las interacciones transversales.</li>
+<li><strong>Erradicar el Control Diferido:</strong> Sustituir la auditoría post-mortem por cortocircuitos automatizados (<em>circuit breakers</em>) y envolventes de viabilidad codificadas en el sistema.</li>
+<li><strong>Validación Empírica Continua:</strong> Reemplazar los simulacros de escritorio (BCP) por la inyección de fricción y <em>stress testing</em> en tiempo real para probar la resiliencia estructural de la red.</li>
+</ol>
+<hr />
+<h3 id="a-quien-va-dirigida-esta-obra">¿A quién va dirigida esta obra?<a class="headerlink" href="#a-quien-va-dirigida-esta-obra" title="Permanent link">&para;</a></h3>
+<p>Este texto está diseñado para incomodar y, posteriormente, rearmar a tres perfiles específicos dentro de la organización:</p>
+<ul>
+<li><strong>Alta Administración y Directorio:</strong> Quienes deben entender que la latencia de sus decisiones es superior a la velocidad del daño, y que el colapso no es un accidente, sino una latencia termodinámica esperando un detonador.</li>
+<li><strong>Oficiales de Riesgo (CRO) y Compliance:</strong> Quienes necesitan abandonar los mapas de probabilidad bidimensionales y mutar hacia la cartografía topológica y la modulación del acoplamiento sistémico.</li>
+<li><strong>Ingenieros de Confiabilidad (SRE) y Arquitectos:</strong> Quienes requieren el mandato y la autoridad para inyectar fallos controlados, romper la complacencia jerárquica y codificar los límites de sacrificio del sistema.</li>
+</ul>
+<hr />
+<h3 id="tesis-central-el-riesgo-como-propiedad-emergente">Tesis Central: El Riesgo como Propiedad Emergente<a class="headerlink" href="#tesis-central-el-riesgo-como-propiedad-emergente" title="Permanent link">&para;</a></h3>
+<p>La premisa fundamental de esta obra es arquitectónica y paramétrica:</p>
+<blockquote>
+<p><strong>En sistemas complejos, el riesgo no es un evento; es una propiedad emergente del diseño organizacional.</strong></p>
+<p><strong>El control jerárquico no falla. Es estructuralmente extemporáneo. La organización no decide cómo reaccionar en una crisis; la arquitectura ejecuta sus límites de sacrificio innegociables en tiempo de colapso.</strong></p>
+</blockquote>
+<p>Este libro propone la abolición de la "Gestión de Riesgos Documental" para dar paso a la <strong>Física Organizacional</strong>: redes donde la autoridad táctica se transfiere a la frontera, la asimetría de consecuencia se penaliza algorítmicamente y el sistema se degrada con elegancia para garantizar su supervivencia global.</p>
+<hr />
+<h2 id="estructura-de-la-documentacion">Estructura de la Documentación<a class="headerlink" href="#estructura-de-la-documentacion" title="Permanent link">&para;</a></h2>
+<p>El contenido está organizado en seis bloques estratégicos que trazan la evolución desde el diagnóstico del modelo heredado hasta el despliegue del motor de confiabilidad sistémica.</p>
+<h3 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h3>
+<p>Reglas de compromiso y definición del campo de batalla.</p>
+<ul>
+<li><a href="nota-al-lector/">Nota al Lector</a>
+  <em>Advertencia de enfoque y el fin de la inocencia estructural corporativa.</em></li>
+<li><a href="prologo/">Prólogo: La Física del Colapso</a>
+  <em>Por qué la ilusión del control estático garantiza el desajuste arquitectónico.</em></li>
+<li><a href="ideas-centrales/">Ideas Centrales</a>
+  <em>Mapa conceptual: Del riesgo lineal a la termodinámica de redes.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-1-el-modelo-heredado">Bloque 1: El Modelo Heredado<a class="headerlink" href="#bloque-1-el-modelo-heredado" title="Permanent link">&para;</a></h3>
+<p><em>(La racionalidad de la arquitectura obsoleta y la incubación del desajuste)</em></p>
+<ul>
+<li><a href="capitulos/01-modelo-heredado/">Capítulo 01: Riesgo financiero, operacional y legal</a>
+  <em>Por qué las divisiones clásicas ya no pueden contener la realidad transversal.</em></li>
+<li><a href="capitulos/02-jerarquia-funcional/">Capítulo 02: Especialización funcional y jerarquía</a>
+  <em>La simplicidad del organigrama como mecanismo de ceguera de la red.</em></li>
+<li><a href="capitulos/03-supuestos-linealidad/">Capítulo 03: Supuestos de linealidad y separabilidad</a>
+  <em>El error de asumir que el todo es la suma de las partes y el fracaso del RCA.</em></li>
+<li><a href="capitulos/04-persistencia-estructural/">Capítulo 04: Persistencia estructural del modelo</a>
+  <em>El control que tranquiliza a la cúpula antes de gobernar a la organización.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-2-interdependencia-y-aceleracion">Bloque 2: Interdependencia y Aceleración<a class="headerlink" href="#bloque-2-interdependencia-y-aceleracion" title="Permanent link">&para;</a></h3>
+<p><em>(La nueva física del entorno y la aniquilación del tiempo)</em></p>
+<ul>
+<li><a href="capitulos/05-expansion-riesgos/">Capítulo 05: Expansión del universo de riesgos</a>
+  <em>La dilución de la responsabilidad ante amenazas sin fronteras jurisdiccionales.</em></li>
+<li><a href="capitulos/06-acoplamiento-fuerte/">Capítulo 06: Transversalidad y acoplamiento fuerte</a>
+  <em>Operar en tiempo real y controlar en diferido: midiendo lo que ya no existe.</em></li>
+<li><a href="capitulos/07-cascadas-sistemicas/">Capítulo 07: Cascadas y amplificación sistémica</a>
+  <em>Cómo la optimización local y las defensas aisladas destruyen la red.</em></li>
+<li><a href="capitulos/08-compresion-temporal/">Capítulo 08: Compresión temporal y latencia de decisión</a>
+  <em>Cuando el daño viaja en milisegundos y la jerarquía requiere días.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-3-limites-humanos-y-desajuste">Bloque 3: Límites Humanos y Desajuste<a class="headerlink" href="#bloque-3-limites-humanos-y-desajuste" title="Permanent link">&para;</a></h3>
+<p><em>(El colapso cognitivo frente a la hiperconexión)</em></p>
+<ul>
+<li><a href="capitulos/09-limite-cognitivo/">Capítulo 09: Capacidad limitada de integración</a>
+  <em>El fracaso biológico para procesar sistemas fuertemente acoplados.</em></li>
+<li><a href="capitulos/10-puntos-ciegos/">Capítulo 10: Fragmentación y puntos ciegos</a>
+  <em>La iluminación de los nodos funcionales y la oscuridad de las interfaces.</em></li>
+<li><a href="capitulos/11-delegacion-opaca/">Capítulo 11: Delegación tecnológica y opacidad</a>
+  <em>Asumir el control de cajas negras en el peor momento y con máxima ceguera.</em></li>
+<li><a href="capitulos/12-asimetria-conocimiento/">Capítulo 12: Restricción temporal y asimetría de conocimiento</a>
+  <em>La fractura topológica entre el operador que sabe y el director que manda.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-4-riesgo-como-propiedad-emergente">Bloque 4: Riesgo como Propiedad Emergente<a class="headerlink" href="#bloque-4-riesgo-como-propiedad-emergente" title="Permanent link">&para;</a></h3>
+<p><em>(La reconceptualización del fallo sistémico)</em></p>
+<ul>
+<li><a href="capitulos/13-riesgo-sistemico/">Capítulo 13: Riesgo lineal vs riesgo sistémico</a>
+  <em>La optimización extrema como la principal incubadora del colapso global.</em></li>
+<li><a href="capitulos/14-interacciones-huerfanas/">Capítulo 14: Interacciones no gobernadas</a>
+  <em>Las excepciones manuales indocumentadas que sostienen la red.</em></li>
+<li><a href="capitulos/15-senales-debiles/">Capítulo 15: Señales débiles y ruido organizacional</a>
+  <em>Cómo el sistema está matemáticamente diseñado para no escuchar su propia fricción.</em></li>
+<li><a href="capitulos/16-asimetria-consecuencia/">Capítulo 16: Asimetría de consecuencia</a>
+  <em>El riesgo moral de separar topológicamente la decisión del impacto.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-5-adaptacion-arquitectonica">Bloque 5: Adaptación Arquitectónica<a class="headerlink" href="#bloque-5-adaptacion-arquitectonica" title="Permanent link">&para;</a></h3>
+<p><em>(Las condiciones físicas y geométricas de viabilidad)</em></p>
+<ul>
+<li><a href="capitulos/17-integracion-transversal/">Capítulo 17: Integración transversal como función del sistema</a>
+  <em>La interfaz como unidad de diseño y la fricción como telemetría estructural.</em></li>
+<li><a href="capitulos/18-envolventes-viabilidad/">Capítulo 18: Topología de la decisión y envolventes de viabilidad</a>
+  <em>Límites paramétricos duros y la transferencia de autoridad a la frontera.</em></li>
+<li><a href="capitulos/19-stress-testing/">Capítulo 19: Stress testing sistémico y validación empírica</a>
+  <em>La muerte del simulacro documental y la inyección de caos deliberado.</em></li>
+<li><a href="capitulos/20-gobernanza-incertidumbre/">Capítulo 20: Gobernanza bajo incertidumbre permanente</a>
+  <em>La modulación térmica del acoplamiento para absorber el impacto sin romperse.</em></li>
+</ul>
+<hr />
+<h3 id="bloque-6-arquitectura-operacional-y-despliegue-sistemico">Bloque 6: Arquitectura Operacional y Despliegue Sistémico<a class="headerlink" href="#bloque-6-arquitectura-operacional-y-despliegue-sistemico" title="Permanent link">&para;</a></h3>
+<p><em>(El motor de implementación y la ingeniería de confiabilidad)</em></p>
+<ul>
+<li><a href="capitulos/21-gobernanza-bimodal/">Capítulo 21: La transición arquitectónica y la gobernanza bimodal</a>
+  <em>Intervención del MVP sistémico sin detener la operación de la empresa.</em></li>
+<li><a href="capitulos/22-ingenieria-incentivos/">Capítulo 22: Ingeniería de incentivos y métricas de red</a>
+  <em>Penalización algorítmica de la optimización local destructiva.</em></li>
+<li><a href="capitulos/23-sre-corporativo/">Capítulo 23: La mutación del control interno y el SRE corporativo</a>
+  <em>La auditoría tradicional es reemplazada por un escuadrón técnico con autoridad sobre la red.</em></li>
+<li><a href="capitulos/24-bucle-adaptacion/">Capítulo 24: El bucle de adaptación continua y la inevitabilidad sistémica</a>
+  <em>Cálculo de la tensión termodinámica en tiempo real para modular la arquitectura y sobrevivir a su propio éxito.</em></li>
+</ul>
+<hr />
+<h3 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="epilogo/">Epílogo: La inevitabilidad del sistema</a>
+  <em>El diseño como única defensa ante la gravedad innegociable del acoplamiento.</em></li>
+</ul>
+<hr />
+<h2 id="anexos-operativos">Anexos Operativos<a class="headerlink" href="#anexos-operativos" title="Permanent link">&para;</a></h2>
+<p>Estos anexos no son recomendaciones teóricas; son el instrumental forense, herramientas de auditoría paramétrica y despliegue topológico.</p>
+<ul>
+<li><a href="anexos/A-diagnostico-complejidad/">Anexo A: Modelo de Diagnóstico de Complejidad Organizacional</a>
+  <em>El sensor de entrada comercial que expone el déficit de variedad estructural y la ilusión del control documental.</em></li>
+<li><a href="anexos/B-mapa-interdependencias/">Anexo B: Mapa de Interdependencias Críticas</a>
+  <em>Cartografía topológica de la red para revelar la geometría exacta por donde se propaga el daño sistémico.</em></li>
+<li><a href="anexos/C-indice-acoplamiento/">Anexo C: Índice de Acoplamiento Sistémico</a>
+  <em>Métrica física que determina la velocidad y la violencia con la que una perturbación local se transforma en un colapso global.</em></li>
+<li><a href="anexos/D-stress-testing/">Anexo D: Framework de Stress Testing Sistémico</a>
+  <em>El protocolo para inyectar fricción deliberada y probar empíricamente la resiliencia y la degradación elegante.</em></li>
+<li><a href="anexos/E-matriz-asimetria/">Anexo E: Matriz de Asimetría de Conocimiento y Consecuencia</a>
+  <em>La topología del poder y el error: cómo la separación entre el que decide y el que paga garantiza el colapso.</em></li>
+<li><a href="anexos/F-envolventes-viabilidad/">Anexo F: Formalización Paramétrica de las Envolventes de Viabilidad</a>
+  <em>Las cinco definiciones matemáticas innegociables que separan la fricción funcional del contagio terminal.</em></li>
+<li><a href="anexos/G-protocolo-despliegue/">Anexo G: Protocolo de Implementación Sistémica (12 Meses)</a>
+  <em>El manual de despliegue táctico para instalar la arquitectura en una ventana de 12 meses, coexistiendo con la operación viva.</em></li>
+<li><a href="anexos/H-autopsias-forenses/">Anexo H: Autopsias Forenses Comparadas</a>
+  <em>Desclasificación de colapsos sistémicos arquetípicos que demuestran la futilidad del teatro documental frente a la velocidad de la red.</em></li>
+</ul>
+<hr />
+<h2 id="referencias-y-fundamento">Referencias y Fundamento<a class="headerlink" href="#referencias-y-fundamento" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="referencias/Glosario/">Glosario Forense</a></li>
+<li><a href="referencias/Bibliografia/">Bibliografía y Estándares</a></li>
+</ul>
+<hr />
+<h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>v1.0 (Abril 2026):</strong> Consolidación de los 24 capítulos fundacionales, publicación de los 8 Anexos Operativos (A-H) y establecimiento de la arquitectura de confiabilidad sistémica.</li>
+<li>Ver <a href="changelog/">Historial Completo</a>.</li>
+</ul>
+<h2 id="sugerencias-y-mejoras">Sugerencias y Mejoras<a class="headerlink" href="#sugerencias-y-mejoras" title="Permanent link">&para;</a></h2>
+<p>Este es un documento vivo. Si encuentras una errata o tienes una sugerencia de mejora, puedes reportarla directamente en el <a href="https://github.com/jccarvajal/El-Diseno-Del-Riesgo">Repositorio de GitHub</a>.</p>
+<h2 id="licencia">Licencia<a class="headerlink" href="#licencia" title="Permanent link">&para;</a></h2>
+<p>El contenido se distribuye bajo licencia <strong>CC BY-NC-ND 4.0</strong>.
+Se autoriza su uso educativo y de referencia profesional. No se permite la modificación ni el uso comercial sin autorización expresa del autor.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+        
+          
+          <a href="nota-al-lector/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Nota al Lector">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Nota al Lector
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Juan Carlos Carvajal - Licencia CC BY-NC-ND 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -96,7 +96,7 @@ nav:
       - 'Capítulo 18: Topología de la decisión y envolventes de viabilidad': capitulos/18-envolventes-viabilidad.md
       - 'Capítulo 19: Stress testing sistémico y validación empírica': capitulos/19-stress-testing.md
       - 'Capítulo 20: Gobernanza bajo incertidumbre permanente': capitulos/20-gobernanza-incertidumbre.md
-  - 'Bloque 6: LArquitectura Operacional y Despliegue Sistémico':
+  - 'Bloque 6: Arquitectura Operacional y Despliegue Sistémico':
       - 'Capítulo 21: La transición arquitectónica y la gobernanza bimodal': capitulos/21-gobernanza-bimodal.md
       - 'Capítulo 22: Ingeniería de incentivos y métricas de red': capitulos/22-ingenieria-incentivos.md
       - 'Capítulo 23: La mutación del control interno y el SRE corporativo': capitulos/23-sre-corporativo.md
